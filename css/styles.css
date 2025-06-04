@@ -1,0 +1,222 @@
+@import 'common.css';
+
+.product-page {
+    width: 100%;
+    max-width: 475px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .card-cta, .pages-block {
+    width: 100%;
+    background: var(--stan-store-theme-secondary-color);
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.header img, .course-preview img, .product-image-container img, .page-header__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header img, .page-header__image img {
+    border-radius: 15px;
+    box-shadow: var(--stan-box-shadow);
+}
+
+.header-title, .page-header__title {
+    margin-top: 20px;
+    font-family: var(--font-primary) !important;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -.01em;
+    word-wrap: anywhere;
+    color: var(--stan-store-theme-primary-text-color);
+}
+
+.header-price {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    font-family: var(--stan-store-theme-primary-font,var(--default-font-primary));
+    font-weight: 600;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.price-current {
+    color: var(--stan-store-theme-primary-color);
+}
+
+.price-original {
+    text-decoration: line-through;
+    opacity: 0.25;
+    color: var(--stan-store-theme-primary-text-color);
+}
+
+.course-preview, .product-image-container {
+    margin: 0 20px;
+    font-size: 0;
+}
+
+.course-content {
+    padding: 20px;
+}
+
+.course-content p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--stan-store-theme-secondary-text-color);
+}
+
+.course-content a {
+    color: var(--stan-store-theme-primary-color);
+    text-decoration: none;
+}
+
+.card-cta h4, .pages-block.payments h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: var(--stan-store-theme-primary-text-color) !important;
+    text-align: center;
+}
+
+.pages-block.payments {
+    padding: 20px;
+}
+
+.purchase-button {
+    margin: 0;
+    font: inherit;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    min-height: 60px;
+    padding: 8px;
+    border: 1px solid var(--stan-store-theme-primary-color);
+    border-radius: 10px;
+    background: var(--stan-store-theme-primary-color) !important;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.purchase-button-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: var(--stan-store-theme-primary-font,var(--default-font-primary));
+    color: var(--stan-store-theme-button-text-color);
+}
+
+.purchase-button-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    max-height: 24px;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    text-align: center;
+    letter-spacing: .01em;
+    line-height: normal;
+}
+
+.purchase-container {
+    background: var(--stan-store-theme-secondary-color);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.privacy-container {
+    width: 100% !important;
+    padding: 0 0 76px;
+    margin: 0;
+    color: #888;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.privacy-button {
+    margin: auto;
+    padding: 12px 20px;
+    font-family: var(--stan-store-theme-primary-font,var(--default-font-primary));
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 105%;
+    text-align: center;
+    color: #888;
+    background: rgba(0,0,0,.03);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+}
+
+.privacy-footer {
+    margin-top: 20px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--stan-store-theme-secondary-text-color);
+    width: 100%;
+}
+
+.legal-info {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+}
+
+.legal-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.page-header__image {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--stan-box-shadow);
+}
+
+.page-header__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-image-container .editor__content {
+    margin-top: 20px;
+    font-size: 14px;
+} 
