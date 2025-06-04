@@ -1,0 +1,29 @@
+:root {
+    --stan-store-primary-color: #6355ff;
+    --stan-store-primary-color-rgb: undefined;
+    --stan-store-theme-primary-color: #6355ff;
+    --stan-store-secondary-color: #ffffff;
+    --stan-store-theme-secondary-color: #ffffff;
+    --stan-store-theme-tone1-color: rgba(99,85, 255, 0.05);
+    --stan-store-theme-tone2-color: rgba(99,85, 255, 0.4);
+    --stan-store-theme-tone3-color: rgba(99,85, 255, 0.0375);
+    --stan-store-theme-derived1-color: undefined;
+    --stan-store-theme-derived2-color: undefined;
+    --stan-store-theme-derived3-color: undefined;
+    --stan-store-theme-primary-text-color-rgb: 0, 0, 0;
+    --stan-store-theme-primary-text-color: #000000;
+    --stan-store-theme-button-text-color: #ffffff;
+    --stan-store-theme-secondary-text-color: #00000088;
+    --stan-store-theme-placeholder-text-color: #00000088;
+    
+    /* Определение шрифтов */
+    --default-font-primary: var(--font-primary);
+    --default-font-secondary: var(--font-secondary);
+    --stan-store-theme-primary-font: var(--font-primary);
+    
+    --stan-store-background-url: url(https://assets.stanwith.me/live/msc/26073985/7bax4/img3017.jpg);
+    --stan-store-default-color: #3a36db;
+    --stan-box-shadow: 0px 15px 50px rgba(0,29,109,0.07),inset 0px -5px 10px rgba(0,0,0,0.01);
+    --theme-rating-color: #ffdd50;
+    --theme-discount-color: #ffb0b0;
+} 
